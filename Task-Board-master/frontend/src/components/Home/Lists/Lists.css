@@ -1,0 +1,25 @@
+.list-container{
+    min-width: 250px;
+    height: 80vh;
+    background-color: rgb(160, 245, 94);
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.list-container > h3{
+    text-align: center;
+    background-color: rgb(4, 188, 4);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.main-task-container{
+    /* border: 1px solid black; */
+    height: 89%;
+    padding: 5px 5px;
+    overflow-y: scroll;
+}
+
+.main-task-container::-webkit-scrollbar{
+    display: none;
+}

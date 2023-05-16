@@ -1,0 +1,15 @@
+.main-container{
+    display: flex;
+    width: 100svw;
+    /* border: 1px solid black; */
+    overflow-x: scroll;
+}
+
+.main-container>div:last-child{
+    margin-right: 25vw;
+    
+}
+
+.mainnn{
+    display: flex;
+}
